@@ -50,8 +50,7 @@ app.get('/api/whoami', function (req, res) {
     "ipaddress":userIp,
     "language":userLanguage,
     "software":userSoftware
-  });
- 
+  }); 
 });
 
 // listen for requests :)
